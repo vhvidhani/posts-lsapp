@@ -7,13 +7,14 @@
 
         <title>Laravel</title>
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
-        <link href="/css/app.css" rel="stylesheet" type="text/css">
+        
+        <link href="{{asset('css/app.css')}}" rel="stylesheet" type="text/css">
     </head>
     <body>
+        @include('inc.nav')
+        <br>
         <div class="container">
-        @yield('content')
+            @yield('content')
         </div>
     </body>
 </html>

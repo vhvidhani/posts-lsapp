@@ -1,10 +1,14 @@
 @extends('layout.app')
 
 @section('content')
-    <h1>All posts </h1>
     
-    @foreach($posts as $post)
-        <div class="Well"><h2>{{$post}}</h2></div>
-    @endforeach
-    
+    <div class="jumbotron">
+        <div class="container">
+        <h1>All posts </h1>
+          
+          <p>This is a posts blog application.</p>
+          <p><a class="btn btn-primary btn-lg" href="/posts" role="button">Posts &raquo;</a></p>
+        </div>
+      </div>
+
 @endsection
