@@ -10,6 +10,7 @@
             <img src="/storage/images/{{$post->cover_img}}" alt="" height="100px">
             
         </div>
+        <hr>
         <br>
     @endforeach
     <br>
