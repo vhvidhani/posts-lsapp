@@ -9,5 +9,5 @@
             <p>{{$post->body}}</p>
         </div>
     @endforeach
-    
+    <a href="/posts/create"><Button class="btn btn-primary">New Post</Button></a>
 @endsection

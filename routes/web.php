@@ -11,8 +11,12 @@
 |
 */
 
-Route::get('/', 'PagesController@index');
+Route::get('/home', 'PagesController@home')->middleware('checkuser');
+Route::get('/login','PagesController@login');
+Route::get('/','PagesController@index');
 Route::get('/about', 'PagesController@about');
 Route::get('/services', 'PagesController@services');
 
 Route::get('/posts','PostsController@index');
+Route::get('/posts/create','PostsController@create');
+Route::post('/posts/store','PostsController@store');
