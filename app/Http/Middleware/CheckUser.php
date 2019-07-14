@@ -16,7 +16,7 @@ class CheckUser
     public function handle($request, Closure $next)
     {
         //return $request;
-        echo $request->username;
+        //echo $request->username;
         if ($request->username == 'vishakha') {
             $user=$request->username == 'vishakha';
             return $next($request);

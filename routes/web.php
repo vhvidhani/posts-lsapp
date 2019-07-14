@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/home', 'PagesController@home')->middleware('checkuser');
+Route::post('/home', 'PagesController@home')->middleware('checkuser');
 Route::get('/login','PagesController@login');
 Route::get('/','PagesController@index');
 Route::get('/about', 'PagesController@about');
