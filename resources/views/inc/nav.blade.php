@@ -12,6 +12,12 @@
       <li class="nav-item">
         <a class="nav-link" href="/posts">Posts</a>
       </li>
-    </ul>
+      </ul>
+      <ul class="nav navbar-nav navbar-right" >
+      <li>
+        <a class="nav-link" href="/login">Login</a>
+        </li>
+      </ul>
+    
   </div>
 </nav>

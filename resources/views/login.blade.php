@@ -5,11 +5,11 @@
 <form action="/home" method="get">
     @csrf
     <div class="form-group">
-    <label for="username"></label>
+    <label for="username">Username</label>
     <input type="text" name="username" class="form-control">
     </div>
     <div class="form-group">
-    <label for="password"></label>
+    <label for="password">Password</label>
     <input type="password" name="password" class="form-control">
     </div>
     <button type="submit">Login</button>
