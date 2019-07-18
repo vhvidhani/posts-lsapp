@@ -17,11 +17,7 @@
         <label for="cover_img" >Image</label>
         <input type="file" name="cover_img" class="form-control">
     </div>
-    <input class="btn btn-primary" type="submit" value="Submit">
+    <input class="btn btn-success" type="submit" value="Submit">
     </form>
-    
-    
 
-    
-    
 @endsection
