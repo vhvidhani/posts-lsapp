@@ -12,7 +12,7 @@
     <label for="password">Password</label>
     <input type="password" name="password" class="form-control">
     </div>
-    <button type="submit" class="btn btn-primary">Login</button>
+    <button type="submit" class="btn btn-success">Login</button>
 </form>
 
     
