@@ -14,5 +14,5 @@
         <br>
     @endforeach
     <br>
-    <a href="/posts/create"><Button class="btn btn-primary">New Post</Button></a>
+    <a href="/posts/create"><Button class="btn btn-success">New Post</Button></a>
 @endsection
